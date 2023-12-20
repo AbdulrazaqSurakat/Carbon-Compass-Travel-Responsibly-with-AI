@@ -1,1 +1,2 @@
-# AbdulrazaqSurakat-Ai-Digital-Number-Recognition
+# AbdulrazaqSurakat-Carbon Compass: Travel Responsibly with AI 
+•	Developed a web platform utilizing ParseHub/Kimono for event scraping, MonkeyLearn/RapidAPI for AI classification, and EcoClipper/Greenlytics for carbon footprint analysis. Greenify Your Getaways optimizes travel routes, suggests eco-friendly accommodations and alternative transportation, and helps users reduce their carbon footprint by 20%
