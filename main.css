@@ -1,7 +1,9 @@
-body {
-  font-family: system-ui;
-  background: #5D8AA8;
+*{
   color: white;
+  font-family: system-ui;
   text-align: center;
+  background: #5D8AA8;
+  /*General settings for all the elements on the page*/
   
 }
+
