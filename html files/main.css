@@ -3,13 +3,22 @@
   color: white;
   font-family: system-ui;
   text-align: center;
-  background: #5D8AA8;
+  
 }
 /* Settings for html element div with class container */
 .container{
   min-height:100vh;
   width: 100%;
-  background-image: url();
+  background-image: url(../images/wepik-export-2023122903553622IJ.jpg);
   background-position: center;
-  padding:10px 8%;
+  padding:100 px;
+  margin: 100px;
+}
+nav{
+  display: flex; 
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+
 }
