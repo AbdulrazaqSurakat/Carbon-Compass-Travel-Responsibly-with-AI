@@ -3,22 +3,54 @@
   color: white;
   font-family: system-ui;
   text-align: center;
+  box-sizing: border-box;
+  margin: 0;
   
 }
 /* Settings for html element div with class container */
 .container{
   min-height:100vh;
   width: 100%;
-  background-image: url(../images/wepik-export-2023122903553622IJ.jpg);
-  background-position: center;
   padding:100 px;
-  margin: 100px;
+  background-image: url(../images/WallpaperDog-20517207.jpg);
+  background-size: cover;
+  margin: 0px;
+} /* Cursor pointer chnages the default arrow to a hand*/
+
+.websiteLogo{
+  filter:brightness(0) invert();
+width:180px;
+cursor:pointer
 }
+/* Settings for all the elements in nav*/
 nav{
   display: flex; 
   width: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-
 }
+/*Settings for all the nav list*/
+nav ul{
+  padding-right: 60px;
+  list-style: none;
+  text-align: right;
+  width: 100%;
+}
+/*Settings for all list items in nav unordeered list*/
+nav ul li{
+  display: inline-block;
+  margin: 10px;
+/*Settings for the a elements in the list items*/
+}
+nav ul li a{
+  color: #fff;
+  text-decoration:none;
+  font-size: 18px;
+}
+.PageContent{
+ 
+  width: 100%;
+  padding:0 px;
+  
+} /* Cursor pointer chnages the default arrow to a hand*/
