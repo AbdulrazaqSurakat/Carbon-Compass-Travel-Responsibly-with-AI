@@ -5,10 +5,10 @@
   text-align: center;
   box-sizing: border-box;
   margin: 0;
-  
+   
 }
 /* Settings for html element div with class container */
-.container{
+.Maincontainer{
   min-height:100vh;
   width: 100%;
   padding:100 px;
@@ -40,7 +40,7 @@ nav ul{
 /*Settings for all list items in nav unordeered list*/
 nav ul li{
   display: inline-block;
-  margin: 10px;
+  margin: 10px 20px;
 /*Settings for the a elements in the list items*/
 }
 nav ul li a{
@@ -49,8 +49,45 @@ nav ul li a{
   font-size: 18px;
 }
 .PageContent{
- 
   width: 100%;
   padding:0 px;
+  font-size: 20px;
+  font-weight:600;
+} 
+.button1{
+  align-items: center;
+  padding:10px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background: #f5168d;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.PageContent h1{
+  font-size: 70px;
+  font-weight:600;
+  line-height: 85px;
+  margin-bottom: 25px;
+}
+/* Page content form settings creates a centered white background */
+.PageContent form{
+  align-items:center;
+  background: #fff;
+  border-radius: 200px;
+  padding:9px;
+  margin-top: 30px;
+  max-width: 500px;
+  margin: 0 auto; /* Center the form horizontally */
   
-} /* Cursor pointer chnages the default arrow to a hand*/
+}
+/* Makes the placeholder text visible against white background */
+::placeholder{
+  color:black;
+  font-weight: bold;
+}
+input{
+font-weight: bold;
+color:black;
+}
