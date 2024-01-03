@@ -58,6 +58,7 @@ form{
 width:90%;
 max-width:600px;
   }
+  /* Styling settings for label */
   label{
     color: #fff;
     cursor: text;
@@ -106,5 +107,5 @@ max-width:600px;
   }
   .row .input-box{
     flex-basis: 48%;
-    
+
   }
