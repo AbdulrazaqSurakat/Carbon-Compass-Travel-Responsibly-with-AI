@@ -1,0 +1,19 @@
+{
+  "name": "carbon-compass-travel-responsibly-with-ai",
+  "version": "1.0.0",
+  "description": "•\tDeveloped a web platform utilizing ParseHub/Kimono for event scraping, MonkeyLearn/RapidAPI for AI classification, and EcoClipper/Greenlytics for carbon footprint analysis. Greenify Your Getaways optimizes travel routes, suggests eco-friendly accommodations and alternative transportation, and helps users reduce their carbon footprint by 20%",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
