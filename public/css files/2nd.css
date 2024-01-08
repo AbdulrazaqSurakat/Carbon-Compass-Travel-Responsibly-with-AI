@@ -1,0 +1,112 @@
+ /*General settings for all the elements on the page*/
+ *{
+    color: white;
+    font-family: system-ui;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .firstContainer{
+    background-image: url(../images/WallpaperDog-20517207.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding:10 px;
+    margin: 0px;
+  } 
+  .ContactPageClass{
+    background-image: url(../images/WallpaperDog-20517207.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height:100vh; 
+    width: 100%;
+    padding:100 px;
+  } 
+  nav{
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  /*Settings for all the nav list*/
+  nav ul{
+    padding-right: 60px;
+    list-style: none;
+    text-align: right;
+    width: 100%;
+  }
+  /*Settings for all list items in nav unordeered list*/
+  nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+  /*Settings for the a elements in the list items*/
+  }
+  nav ul li a{
+    color: #fff;
+    text-decoration:none;
+    font-size: 18px;
+  }
+  .websiteLogo{
+  filter:brightness(0) invert();
+  width:180px;
+  cursor:pointer
+  }
+  /* Settings for contact page class div container */
+
+form{
+width:90%;
+max-width:600px;
+  }
+  /* Styling settings for label */
+  label{
+    color: #fff;
+    cursor: text;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    transition:0.2s;
+    height:100%;
+  }
+  .input-box{
+    position: relative;
+    margin-bottom: 30px;
+  }
+  input, textarea{
+    background: transparent;
+    width:100%;
+    padding: 10px;
+    outline:0;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size:16px;
+  }
+
+  button{
+  padding:10px 0;
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  background: red;
+  color: #fff;
+  width:100%;
+  cursor: pointer;
+  }
+  
+  input:valid~label,
+  input:focus~label,
+  textarea:focus~label,
+  textarea:valid~label{
+    top: -35px;
+    font-size: 
+  }
+
+  .row{
+    display: flex;
+    justify-content:space-between ;
+    align-items:center ;
+  }
+  .row .input-box{
+    flex-basis: 48%;
+  }
