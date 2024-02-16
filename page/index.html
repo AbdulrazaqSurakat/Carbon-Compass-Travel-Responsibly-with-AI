@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!--Ensures proper rendering and compatibility to modern webstandards-->
+<html lang="en">
+    <head> <!--Overarching container-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Allows the use of font awesome kits-->
+        <title> Email Sender</title>
+    </head>
+        <body>
+            <form action="/send_email" method="post">
+                <label for="email">From: </label>
+                <input type="email" name="from" id="from">
+                
+                <label for="to"> To:</label>
+                <input type="email" name="to" id="to">
+                
+                <label for="subject"> Subject: </label>
+                  <input type="text" name="subject" id="subject">
+                
+                  <label for="message"> Message: </label>
+                <textarea id="message" name="message"></textarea>
+                
+                <input type="submit" value ="Send">
+                
+                  </form>
+
+                    </body>
+            </html>
+            
